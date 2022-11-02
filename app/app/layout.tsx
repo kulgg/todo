@@ -16,7 +16,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <div></div>
         </div>
       </header>
-      <main className="container mx-auto px-2">{children}</main>
+      <main className="container mx-auto px-2 md:px-0">{children}</main>
     </div>
   );
 }
