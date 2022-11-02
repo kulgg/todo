@@ -6,7 +6,7 @@ export default function Head() {
       <meta name="viewport" content="width=device-width" />
       <meta
         name="description"
-        content="An open source todo app built to test out the new Next.js 13 features."
+        content="An open source todo app built with the new Next.js 13 features"
       />
     </>
   );
