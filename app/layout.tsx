@@ -4,7 +4,9 @@ export default function RootLayout({ children }: { children: JSX.Element }) {
   return (
     <html lang="en">
       <head />
-      <body className="bg-stone-900 text-gray-200">{children}</body>
+      <body className="bg-stone-900 text-gray-200 min-h-screen">
+        {children}
+      </body>
     </html>
   );
 }
