@@ -1,4 +1,4 @@
-"use client";
+import TodoList from "./TodoList";
 
 export default function App() {
   return (
@@ -16,6 +16,9 @@ export default function App() {
           </span>
         </div>
       </div>
+      <div className="my-14"></div>
+      <hr className="border-stone-700 border-t-[1px]" />
+      <TodoList />
     </div>
   );
 }
