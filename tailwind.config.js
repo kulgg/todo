@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      scale: {
+        97: "0.97",
+      },
       container: {
         screens: {
           sm: "100%",

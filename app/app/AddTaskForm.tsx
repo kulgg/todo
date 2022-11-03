@@ -1,3 +1,5 @@
+import GreyButton from "@/components/ui/buttons/grey-button";
+import RedButton from "@/components/ui/buttons/red-button";
 import { Dispatch, SetStateAction, useEffect } from "react";
 
 export default function AddTaskForm({
@@ -36,15 +38,13 @@ export default function AddTaskForm({
       </div>
       <div className="my-2"></div>
       <div className="flex justify-end items-center gap-3">
-        <button
-          className="bg-stone-800 px-3 py-[6px] rounded text-sm hover:bg-stone-700"
-          onClick={() => setIsVisible(false)}
-        >
-          Cancel
-        </button>
-        <button className="bg-red-500 text-white px-3 py-[6px] rounded text-sm hover:bg-red-600">
-          Add task
-        </button>
+        <GreyButton handleClick={() => setIsVisible(false)} text="Cancel" />
+        <RedButton
+          text="Add task"
+          handleClick={() => {
+            const a = 2;
+          }}
+        />
       </div>
     </div>
   );
