@@ -1,4 +1,4 @@
-import { ButtonProps } from "./red-button";
+import { ButtonProps } from "./RedButton";
 
 export default function GreyButton({ text, handleClick }: ButtonProps) {
   return (

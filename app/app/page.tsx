@@ -1,6 +1,6 @@
 import TodoList from "./TodoList";
 
-export default function App() {
+export default async function App() {
   return (
     <div>
       <div className="my-9"></div>

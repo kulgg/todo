@@ -9,8 +9,12 @@ export default function TodoList() {
     function handleKeyDown(event: KeyboardEvent) {
       switch (event.key) {
         case "q":
-          setIsAddTaskFormVisible(true);
-          event.preventDefault();
+          setIsAddTaskFormVisible((prev) => {
+            if (!prev) {
+              event.preventDefault();
+            }
+            return true;
+          });
           break;
       }
     }
