@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        helvetica: ["Helvetica", "sans-serif"],
+      },
       scale: {
         97: "0.97",
       },

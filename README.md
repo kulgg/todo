@@ -29,3 +29,6 @@ Ultimately, I want this to be a fast and responsive todolist app with a clean UI
 - [ ] Menu sidebar
 - [ ] Auth
 - [ ] API & tasks stored in DB
+
+Graphik Web
+Inter
