@@ -21,9 +21,9 @@ Ultimately, I want this to be a fast and responsive todolist app with a clean UI
 ## Roadmap
 
 - [x] Basic app page layout
+- [x] Landing page
 - [ ] Add task form
 - [ ] Store tasks in local storage
-- [ ] Landing page
 - [ ] Users can differentiate tasks by projects
 - [ ] Users can set time for task
 - [ ] Menu sidebar
